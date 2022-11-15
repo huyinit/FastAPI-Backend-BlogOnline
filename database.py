@@ -4,7 +4,7 @@ from sqlalchemy.orm import sessionmaker
 import psycopg2
 
 
-SQLALCHEMY_DATABASE_URL = "postgresql://xzcosycukzzrff:cc1a8d2008eac70318ed5e40494625b9202177852500dec83059a7ebbefadde3@ec2-54-159-175-38.compute-1.amazonaws.com:5432/dcidjhp5s2smfd"
+SQLALCHEMY_DATABASE_URL = "postgresql://ynmjafwmqtbjgr:adfbd98927ce2a05b53c4d64e89d2d34682f070b8c5d9cb78dc39b136d399a0b@ec2-52-1-17-228.compute-1.amazonaws.com:5432/dbohqden2q1u41"
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 
 SessionLocal = sessionmaker(autocommit=False,autoflush=False,bind=engine)
